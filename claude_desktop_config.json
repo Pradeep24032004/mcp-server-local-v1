@@ -1,0 +1,27 @@
+{
+  "_README": "This is NOT a standalone config file. Copy ONLY the mcpServers block into your existing claude_desktop_config.json",
+
+  "_file_locations": {
+    "macOS":   "~/Library/Application Support/Claude/claude_desktop_config.json",
+    "Windows": "%APPDATA%\\Claude\\claude_desktop_config.json",
+    "Linux":   "~/.config/Claude/claude_desktop_config.json"
+  },
+
+  "_step1": "Replace /FULL/PATH/TO with your actual folder path. On Mac it might be /Users/yourname/projects/mcp-tracker",
+
+  "mcpServers": {
+    "productivity-tracker": {
+      "command": "/FULL/PATH/TO/mcp-tracker/venv/bin/python",
+      "args": ["/FULL/PATH/TO/mcp-tracker/server.py", "stdio"]
+    }
+  },
+
+  "_windows_example": {
+    "mcpServers": {
+      "productivity-tracker": {
+        "command": "C:\\Users\\YourName\\projects\\mcp-tracker\\venv\\Scripts\\python.exe",
+        "args": ["C:\\Users\\YourName\\projects\\mcp-tracker\\server.py", "stdio"]
+      }
+    }
+  }
+}

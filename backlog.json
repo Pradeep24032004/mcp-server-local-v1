@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "version": "2.0",
+    "owner": "Your Name",
+    "last_updated": "2026-05-20T16:59:57.236272"
+  },
+  "profile": {
+    "custom_fields": {
+      "wake_up_time": "06:00",
+      "daily_calories_goal": "2200",
+      "monthly_savings_goal_inr": "80000",
+      "current_course": "FastAPI + MCP mastery",
+      "mood_today": "focused and productive",
+      "daily_reading_pages_goal": "20"
+    }
+  },
+  "health": {
+    "fat_percentage": {
+      "value": "17",
+      "unit": "%",
+      "updated_at": "2026-05-20T15:45:00"
+    },
+    "weight_kg": {
+      "value": "62.7",
+      "unit": "kg",
+      "updated_at": "2026-05-20T15:50:00"
+    },
+    "bench_press_pr_kg": {
+      "value": "90",
+      "unit": "kg",
+      "updated_at": "2026-05-19T18:00:00"
+    },
+    "sleep_hours": {
+      "value": "7.5",
+      "unit": "hrs",
+      "updated_at": "2026-05-20T07:00:00"
+    },
+    "daily_steps": {
+      "value": "8200",
+      "unit": "steps",
+      "updated_at": "2026-05-19T22:00:00"
+    },
+    "water_intake_litres": {
+      "value": "2.2",
+      "unit": "L",
+      "updated_at": "2026-05-19T22:00:00"
+    },
+    "resting_heart_rate": {
+      "value": "62",
+      "unit": "bpm",
+      "updated_at": "2026-05-18T07:00:00"
+    }
+  },
+  "tasks": [
+    {
+      "id": "T002",
+      "title": "Publish LinkedIn post about MCP",
+      "description": "Post explaining MCP as USB-C for AI agents. Include code snippet, architecture diagram, and demo GIF.",
+      "priority": "high",
+      "status": "todo",
+      "category": "content",
+      "tags": [
+        "linkedin",
+        "writing",
+        "mcp"
+      ],
+      "due_date": "2026-05-23",
+      "created_at": "2026-05-19T11:00:00",
+      "updated_at": "2026-05-19T11:00:00",
+      "notes": "Best posting time: Tuesday 8am IST. Use hooks from post template.",
+      "custom_fields": {
+        "target_impressions": "10000"
+      }
+    },
+    {
+      "id": "T003",
+      "title": "Build MCP server — all 16 tools",
+      "description": "Tasks CRUD, health tracking, custom fields, ChatGPT search/fetch tools. Single server.py file.",
+      "priority": "high",
+      "status": "done",
+      "category": "dev",
+      "tags": [
+        "python",
+        "fastmcp",
+        "backend",
+        "mcp"
+      ],
+      "due_date": "2026-05-20",
+      "created_at": "2026-05-17T08:00:00",
+      "updated_at": "2026-05-20T09:30:00",
+      "notes": "Done! All tools working. stdio + http modes.",
+      "custom_fields": {
+        "lines_of_code": "350",
+        "tools_count": "16"
+      }
+    },
+    {
+      "id": "T004",
+      "title": "Connect to ChatGPT Developer Mode",
+      "description": "Run ngrok, paste URL in ChatGPT Settings > Connectors > Developer Mode. Test all tools from phone.",
+      "priority": "high",
+      "status": "todo",
+      "category": "dev",
+      "tags": [
+        "ngrok",
+        "chatgpt",
+        "phone",
+        "demo"
+      ],
+      "due_date": "2026-05-21",
+      "created_at": "2026-05-20T08:00:00",
+      "updated_at": "2026-05-20T08:00:00",
+      "notes": "Requires ChatGPT Plus ($20/mo). Enable Developer Mode first.",
+      "custom_fields": {}
+    },
+    {
+      "id": "T005",
+      "title": "Reduce body fat from 19.5% to 16%",
+      "description": "Caloric deficit + 4x gym per week. Track measurements every Sunday morning before breakfast.",
+      "priority": "medium",
+      "status": "in_progress",
+      "category": "health",
+      "tags": [
+        "fitness",
+        "body-composition",
+        "goal"
+      ],
+      "due_date": "2026-07-01",
+      "created_at": "2026-05-01T07:00:00",
+      "updated_at": "2026-05-20T07:30:00",
+      "notes": "Start: 19.5%. Target: 16%. ~0.5% per week is realistic.",
+      "custom_fields": {
+        "start_fat_pct": "19.5",
+        "target_fat_pct": "16",
+        "weekly_gym_sessions": "4",
+        "deficit_kcal_per_day": "400"
+      }
+    },
+    {
+      "id": "T006",
+      "title": "Reply to LinkedIn recruiter messages",
+      "description": "3 pending messages this week. Even a polite pass builds network goodwill.",
+      "priority": "medium",
+      "status": "todo",
+      "category": "career",
+      "tags": [
+        "linkedin",
+        "networking",
+        "career"
+      ],
+      "due_date": "2026-05-21",
+      "created_at": "2026-05-20T07:00:00",
+      "updated_at": "2026-05-20T07:00:00",
+      "notes": "",
+      "custom_fields": {}
+    },
+    {
+      "id": "T007",
+      "title": "Gym — leg day",
+      "description": "Squats, Romanian deadlifts, leg press, lunges. 1 hour.",
+      "priority": "medium",
+      "status": "done",
+      "category": "health",
+      "tags": [
+        "gym",
+        "fitness",
+        "legs"
+      ],
+      "due_date": "2026-05-20",
+      "created_at": "2026-05-20T06:00:00",
+      "updated_at": "2026-05-20T07:30:00",
+      "notes": "Squat PR: 110kg! Legs are jelly.",
+      "custom_fields": {
+        "duration_minutes": "55",
+        "pr_today": "squat 110kg"
+      }
+    },
+    {
+      "id": "T008",
+      "title": "Deploy MCP server to Railway",
+      "description": "Host permanently so phone access works 24/7 without running ngrok manually.",
+      "priority": "low",
+      "status": "todo",
+      "category": "dev",
+      "tags": [
+        "deployment",
+        "cloud",
+        "railway"
+      ],
+      "due_date": "2026-05-30",
+      "created_at": "2026-05-20T10:00:00",
+      "updated_at": "2026-05-20T10:00:00",
+      "notes": "Railway free tier: 500 hrs/month. Add Procfile: web: python server.py http",
+      "custom_fields": {}
+    },
+    {
+      "id": "T009",
+      "title": "Dance Class",
+      "description": "",
+      "priority": "medium",
+      "status": "todo",
+      "category": "health",
+      "tags": [
+        "weekend"
+      ],
+      "due_date": "2026-05-23",
+      "created_at": "2026-05-20T16:43:45.635374",
+      "updated_at": "2026-05-20T16:43:45.635374",
+      "notes": "6 PM dance class",
+      "custom_fields": {}
+    },
+    {
+      "id": "T010",
+      "title": "Gym — Morning Cardio",
+      "description": "",
+      "priority": "medium",
+      "status": "todo",
+      "category": "health",
+      "tags": [
+        "weekend"
+      ],
+      "due_date": "2026-05-24",
+      "created_at": "2026-05-20T16:43:48.502339",
+      "updated_at": "2026-05-20T16:43:48.502339",
+      "notes": "Early morning 6 AM, cardio for 40 minutes",
+      "custom_fields": {}
+    },
+    {
+      "id": "T011",
+      "title": "Resolve PR conflicts",
+      "description": "",
+      "priority": "high",
+      "status": "todo",
+      "category": "dev",
+      "tags": [],
+      "due_date": "2026-05-20",
+      "created_at": "2026-05-20T16:59:57.236238",
+      "updated_at": "2026-05-20T16:59:57.236238",
+      "notes": "",
+      "custom_fields": {}
+    }
+  ],
+  "weekend_tasks": [
+    {
+      "id": "W001",
+      "title": "Dance class",
+      "description": "Weekly dance class every Saturday evening.",
+      "priority": "high",
+      "status": "recurring",
+      "category": "weekend",
+      "tags": [
+        "dance",
+        "saturday",
+        "recurring",
+        "fitness"
+      ],
+      "schedule": {
+        "day": "saturday",
+        "time": "18:00",
+        "recurrence": "every_week"
+      },
+      "created_at": "2026-05-20T16:00:00",
+      "updated_at": "2026-05-20T16:00:00",
+      "notes": "Every Saturday at 6:00 PM. Don't miss it.",
+      "custom_fields": {
+        "location": "dance studio",
+        "duration_minutes": "60"
+      }
+    },
+    {
+      "id": "W002",
+      "title": "Sunday morning gym — cardio",
+      "description": "Cardio session every Sunday morning at 6am.",
+      "priority": "high",
+      "status": "recurring",
+      "category": "weekend",
+      "tags": [
+        "gym",
+        "cardio",
+        "sunday",
+        "recurring",
+        "fitness"
+      ],
+      "schedule": {
+        "day": "sunday",
+        "time": "06:00",
+        "recurrence": "every_week"
+      },
+      "created_at": "2026-05-20T16:00:00",
+      "updated_at": "2026-05-20T16:00:00",
+      "notes": "Every Sunday at 6:00 AM. Cardio focus — treadmill, cycling, or outdoor run.",
+      "custom_fields": {
+        "duration_minutes": "60",
+        "type": "cardio"
+      }
+    },
+    {
+      "id": "W003",
+      "title": "Practice guitar chords",
+      "description": "Minimum 1 hour of guitar chord practice every weekend.",
+      "priority": "medium",
+      "status": "recurring",
+      "category": "weekend",
+      "tags": [
+        "guitar",
+        "music",
+        "practice",
+        "recurring",
+        "skill"
+      ],
+      "schedule": {
+        "day": "saturday_or_sunday",
+        "time": "flexible",
+        "recurrence": "every_week",
+        "minimum_duration_minutes": "60"
+      },
+      "created_at": "2026-05-20T16:00:00",
+      "updated_at": "2026-05-20T16:00:00",
+      "notes": "At least 1 hour. Focus on chord transitions and strumming patterns.",
+      "custom_fields": {
+        "minimum_duration_minutes": "60",
+        "current_focus": "chord transitions",
+        "guitar_type": "acoustic"
+      }
+    }
+  ],
+  "categories": [
+    "dev",
+    "content",
+    "learning",
+    "health",
+    "career",
+    "personal",
+    "weekend"
+  ],
+  "stats": {
+    "total": 10,
+    "done": 2,
+    "in_progress": 1,
+    "todo": 7
+  }
+}
