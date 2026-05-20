@@ -1,1 +1,1 @@
-# map-server-local
+# mcp-server-local
